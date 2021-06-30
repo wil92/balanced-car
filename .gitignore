@@ -1,3 +1,15 @@
+build/*
+!/build/.gitkeep
+
+# clion files
 .idea
-CMakeFiles
+
+# environments
 .env
+
+# build generated files
+CMakeFiles
+balanced_car_balanced_car.ino.cpp
+cmake_install.cmake
+CMakeCache.txt
+Makefile
