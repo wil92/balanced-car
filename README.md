@@ -29,5 +29,6 @@ todo
 
 ## ToDo
 
-- Control the car via wifi with an Android phone.
+- Control the car via Wi-Fi with an Android phone.
 - Add sensor for detect collisions.
+- Create scripts for window OS

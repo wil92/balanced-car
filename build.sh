@@ -5,6 +5,19 @@ then
   export $(cat .env | xargs)
 fi
 
-#echo $ARDUINO_SDK_PATH
+cd build
 
-ARDUINO_SDK_PATH="$ARDUINO_SDK_PATH" cmake .
+#cmake ../
+#make
+
+# show serial devices
+ls -l /dev/ttyUSB*
+#ls -l /dev/ttyS*
+
+read -p "Select the serial device [/dev/ttyUSB0]: " SERIAL_SEVICE
+if [ -z "$SERIAL_SEVICE" ]; then SERIAL_SEVICE=/dev/ttyUSB0; fi
+
+echo $SERIAL_SEVICE
+
+avrdude --help
+

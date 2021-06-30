@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 2.8.4)
 
-# define arduino SDK path
-message( "ARDUINO_SDK_PATH=$ENV{ARDUINO_SDK_PATH}")
-set(ARDUINO_SDK_PATH $ENV{ARDUINO_SDK_PATH})
-
 set(CMAKE_TOOLCHAIN_FILE ${CMAKE_SOURCE_DIR}/cmake/ArduinoToolchain.cmake)
 set(CMAKE_CXX_STANDARD 17)
 set(PROJECT_NAME balanced_car)
