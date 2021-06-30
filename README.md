@@ -21,7 +21,7 @@ todo
 
 ## Development (software)
 
-[SOFTWARE GUIA](SOFTWARE.md)
+[SOFTWARE GUIDE](SOFTWARE.md)
 
 ## Author
 
